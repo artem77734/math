@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(57, 82, 224);
+    color: blue;
+    text-align: center;
+    height: 150px;
+}
+
+body{
+    background-color: rgb(159, 168, 221);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: blue;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px;
+}
+
+.menu-item:hover{
+    border-color: orange(65 250 197);
+}
